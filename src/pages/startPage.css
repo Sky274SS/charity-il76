@@ -11,8 +11,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 20vw;
+    width: 60vw;
     height: 10vh;
     background-color: rgba(97, 218, 251, 0.3);
     border-radius: 25px;
+}
+.start_message{
+    margin: 10vh 10px 0 10px;
+    text-align: center;
+    position: absolute;
+    color: #61dafb;
 }
