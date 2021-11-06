@@ -1,0 +1,18 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:425px;
+    height: 862px;
+    background-color: #282c34;
+    color: #61dafb;
+}
+.container>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 100px;
+    background-color: rgba(97, 218, 251, 0.3);
+    border-radius: 25px;
+}
