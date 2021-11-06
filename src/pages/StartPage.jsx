@@ -1,7 +1,7 @@
 import React from 'react';
 import './startPage.css';
 
-const StartPage = () => {
+const StartPage = ({onChange, state}) => {
 
     //alert('Внимание! данное приложение предназначено для мобильных устройств, на остальных устройствах интерфейс может отображаться не корректно!')
 
@@ -12,7 +12,7 @@ const StartPage = () => {
             </div>
             <div className="container">
 
-                <div>Начать</div>
+                <div onClick={()=> onChange(!state)} >Начать </div>
             </div>
         </div>
     );
