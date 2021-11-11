@@ -17,6 +17,8 @@
     border-radius: 25px;
 }
 .start_message{
+    display: flex;
+    justify-content: center;
     margin: 10vh 10px 0 10px;
     text-align: center;
     position: absolute;
