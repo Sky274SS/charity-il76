@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import StartPage from "./pages/StartPage";
 import React,{useState} from "react";
+import InfoPage from "./pages/InfoPage";
 
 function App() {
 
@@ -18,7 +19,9 @@ function App() {
            state={state.isStartPage}
            onChange={(value) => setState({...state, isStartPage:value,isInfoPage:!value})}
        />}
-       {state.isInfoPage&&<div>work</div>}
+       {state.isInfoPage&&<InfoPage
+       state={state.isInfoPage}
+       onExit={(value)=> setState({...state, isInfoPage:value,isStartPage:!value})}/>}
        </div>
    </div>
   );
