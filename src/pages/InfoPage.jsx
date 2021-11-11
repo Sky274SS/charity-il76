@@ -2,8 +2,15 @@ import React from 'react';
 import "./infoPage.css";
 const InfoPage = ({state,onExit}) => {
     return (
-        <div className="container">
-<button className="button" onClick={()=> onExit(!state)}>exit</button>
+        <div className="container_info">
+            <div>
+                <h1>о программе</h1>
+                <p>Далее вам будет представлена программа для помощи в изучении самолета Ил-76,а также запуска двигателей данного самолёта</p>
+                <p>На данный момент она находиться на стадии beta-тестирования</p>
+                <p>чтобы узнать как попасть на beta-тестирование напиши <a href="https://skymirs.ru/" target='_blank'>мне</a></p>
+                <img src="logo512.png" alt=""/>
+            </div>
+<button className="button" onClick={()=> onExit(!state)}>Назад</button>
         </div>
     );
 };

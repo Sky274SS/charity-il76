@@ -1,11 +1,19 @@
-.container{
+.container_info{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     width:100vw;
     height: 100vh;
     background-color: #282c34;
     color: #61dafb;
+}
+.container_info>div{
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px 0 20px;
+    text-align: center;
+    max-width: 400px;
 }
 .button{
     width: 100px;
