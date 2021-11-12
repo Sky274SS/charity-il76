@@ -1,0 +1,24 @@
+.container_menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100vw;
+    height: 100vh;
+    background-color: #282c34;
+    color: #61dafb;
+}
+.container_menu>div{
+    margin: 20px 0 20px 0;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+.answers>div{
+    background-color: rgba(97, 218, 251, 0.3);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    font-weight: normal;
+    font-size: 20px;
+}
